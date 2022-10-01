@@ -11,9 +11,10 @@
 ![image](https://user-images.githubusercontent.com/84240962/193410807-fdecb676-c377-4f98-a4b3-7772cad19f74.png)
 + Xem thông tin chi tiết thành phố : người dùng vuốt sang trái hoặc sang phải để chuyển qua lại các thông tin thành phố 
 
-![image](https://user-images.githubusercontent.com/84240962/193410790-6c7bc20a-10b3-4a18-a573-bf1dd139ac82.png)
-![image](https://user-images.githubusercontent.com/84240962/193410793-3eae3131-efb0-47c1-b953-f616506d8242.png)
-![image](https://user-images.githubusercontent.com/84240962/193410794-d2a8395c-668a-4846-bd4e-c5ec2e55d9a1.png)
+![image](https://user-images.githubusercontent.com/84240962/193410870-2583dbf6-7906-45c5-88a6-e1585026bc49.png)
+![image](https://user-images.githubusercontent.com/84240962/193410873-f3ca16e6-c690-45ab-9940-9f585d7d0c28.png)
+![image](https://user-images.githubusercontent.com/84240962/193410874-a5875877-6f1f-4386-a67d-2a5d40aee218.png)
+
 
 
 + Quản lí danh sách thành phố : Người dùng có thể xem thông tin chi tiết các thành phố có ở trong danh sách ngày ngoài màn hình chính. Người dùng có thể chỉnh sửa : thêm, xóa các thành phố
