@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_City"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/btnBackSearch"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/tvactionbarSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/btnBackSearch"
+        android:fontFamily="@font/tajawal_regular"
+        android:text="Search by city"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/imgCancel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/cancel" />
+
+    <TextView
+        android:id="@+id/tvLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvactionbarSearch"
+        android:layout_marginTop="5dp"
+        android:background="#A19B9B" />
+
+    <LinearLayout
+        android:id="@+id/lnsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:layout_below="@+id/tvLine"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColor="#F30A0A"
+            android:layout_weight="8.5"
+            android:id="@+id/edtSearchName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_edt"
+            android:drawableStart="@drawable/ic_baseline_search_24_blue"
+            android:drawablePadding="5dp"
+            android:hint="Search by city"
+            android:padding="10dp"
+            android:textColorHint="#8A8484"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btnSearchSpeed"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/ic_baseline_search_24_pink" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/contentHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnsearch"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/tajawal_regular"
+        android:text="Lịch sử tìm kiếm"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/tvLine2"
+        android:layout_below="@+id/contentHistory"
+        android:layout_marginTop="10dp"
+        android:background="#A19B9B"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/lvHistorySearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvLine2" />
+
+
+</RelativeLayout>

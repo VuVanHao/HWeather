@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_search_list"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/lnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvNameCityDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/tajawal_regular"
+            android:text="Hà nội"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvNameCityDetail"
+            android:layout_marginStart="35dp"
+            android:src="@drawable/delete_search" />
+
+        <ImageView
+            android:id="@+id/imgReadMore"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_baseline_read_more_24" />
+
+        <TextView
+            android:id="@+id/tvTempCurrentDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@id/tvModeTemp"
+            android:fontFamily="@font/tajawal_regular"
+            android:text="29"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvModeTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toLeftOf="@+id/imgReadMore"
+            android:fontFamily="@font/tajawal_regular"
+            android:text="°C"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:fontFamily="@font/tajawal_regular"
+            android:id="@+id/tvDescDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameCityDetail"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/imgReadMore"
+            android:text="Nhiều mây có mưa"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
